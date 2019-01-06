@@ -2,17 +2,40 @@
 
 
 @media(min-width:576px){
-    
-    
-    
-    
-    
-    
+
+
+    /*Lead-section*/
+    .lead-section{
+        padding: 110px 0 10px;  
+    }
+
+    .lead-section h3{
+        font-size: 22px;
+    }
+
+    .lead-section h2{
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .line:after{
+        margin-top: 30px;
+    }
+
+    .line-center:after{
+        margin: 30px auto 0;
+    }
+
+    .line-before:before{
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
 }
 
 
 @media(min-width:768px){
-    
+
     /*HEADER*/
     .navbar-nav li{
         background: transparent;
@@ -30,7 +53,7 @@
 
     .navbar-nav li a.nav-link{
         text-transform: uppercase;
-        color: #000 !important;
+        color: #fff !important;
         transition: 0.5s linear;       
     }
 
@@ -46,19 +69,99 @@
     .navbar-brand{
         max-width: 170px;/*da moze logo da stane*/
     }
-    
-    
-    
+
+    /*Lead-section*/
+    .lead-section{
+        padding: 150px 0 10px;  
+    }
+
+    .lead-section h3{
+        font-size: 42px;
+    }
+
+    .lead-section h2{
+        font-size: 110px;
+        line-height: 110px;
+    }
+
+    .line:after{
+        margin-top: 50px;
+    }
+
+    .line-center:after{
+        margin: 50px auto 0;
+    }
+
+    .items h4{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .items .items-normal{
+        font-weight: normal;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .line-before:before{
+        width: 100%;
+        margin-top: 127px;
+        margin-bottom: 15px;
+    }
+
 }
 
 
 @media(min-width:992px){
-    
+
     html{
         font-size: 16px;
     }
-    
-    
+
+    /*Lead-section*/
+    .lead-section{
+        padding: 200px 0 10px;  
+    }
+
+    .lead-section h3{
+        font-size: 72px;
+    }
+
+    .lead-section h2{
+        font-size: 150px;
+        line-height: 140px;
+    }
+
+    .line:after{
+        margin-top: 70px;
+    }
+
+    .line-center:after{
+        margin: 70px auto 0;
+    }
+
+    .btn-outline-white {
+        border: 3px solid #FFF;
+    }
+
+    .link-button a{	
+        font-size: 14px;	
+        padding: 20px;
+    }
+
+    .items h4{
+        font-size: 24px;	
+    }
+
+    .items .items-normal{
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+    .line-before:before{
+        margin-top: 157px;
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -66,9 +169,9 @@
 
 
 @media(min-width:1200px){
-    
-    
-    
-    
-    
+
+
+
+
+
 }

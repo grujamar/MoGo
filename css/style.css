@@ -11,14 +11,12 @@ a{
     text-decoration: none;
 }
 
-h1{
+h1, h2, h4, h5{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
 }
 
-h2{
+h3{
     font-family: 'Kaushan Script', cursive;
-    font-weight: 400;
 }
 
 p{
@@ -28,8 +26,9 @@ p{
 
 /*HEADER START*/
 .navbar-brand h1{
-    color: #000;
+    color: #fff;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .navbar-brand{
@@ -71,3 +70,90 @@ p{
 #main-menu{
     margin: 0 -15px;
 }
+
+/*Lead-section*/
+.lead-section{
+    padding: 110px 0 10px;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.lead-section h3{
+    font-size: 15px;
+}
+
+.lead-section h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+/*LINE*/
+.line:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: gray;
+    margin-top: 30px;
+}
+
+.line-center:after{
+    margin: 30px auto 0;
+}
+
+.line-bg-white:after{
+    background:#fff;
+}
+
+.line-bg-gray:after{
+    background:#81868E;
+}
+
+.btn-outline-white {
+    color: #fff !important;
+    background-image: none;
+    border: 2px solid #FFF;
+    background-color: transparent;
+}
+
+.link-button a{
+    font-family: Montserrat;	
+    font-size: 10px;	
+    font-weight: bold;	
+    line-height: 0;	
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.items h4{
+    color: #FFFFFF;	
+    font-size: 24px;	
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.items .items-normal{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+}
+
+.line-before:before{
+    content: '';
+    display: block;
+    width: 60%;
+    margin: 15px auto 15px;
+    height: 3px;
+    background: gray;
+}
+
+.line-before-bg-white:before{
+    background:#fff;
+}
+
