@@ -271,5 +271,26 @@ p{
     background-color: #E5E5E5;
 }
 
+/*design section*/
+.design{
+    padding: 50px 0 0px;
+}
 
+.design h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.design .design-cover{
+    position: absolute;
+    bottom: -25%;
+    left: 55%;
+    text-decoration: none;
+    padding: 60px;
+}
+
+.design .design-cover{
+    max-width: 260px;
+    margin: auto;
+}
 

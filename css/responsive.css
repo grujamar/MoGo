@@ -43,7 +43,11 @@
     .statistics .statistics-item h4{
         font-size: 12px;
     }
-
+    
+    .design .design-cover{
+        max-width: 516px;
+        margin: auto;
+    }
 }
 
 
@@ -155,7 +159,7 @@
     .services{
         padding: 80px 0;
     }
-    
+
     .services .services-item .services-item-left .fa{
         font-size: 40px;
     }
@@ -166,6 +170,16 @@
 
     .services .services-item .services-item-right p{
         font-size: 14px;
+    }
+
+    /*design section*/
+    .design{
+        padding: 70px 0 0px;
+    }
+    
+    .design .design-cover{
+        max-width: 708px;
+        margin: auto;
     }
 }
 
@@ -271,6 +285,15 @@
         font-size: 15px;
     }
 
+    /*design section*/
+    .design{
+        padding: 100px 0 0px;
+    }
+    
+    .design .design-cover{
+        max-width: 932px;
+        margin: auto;
+    }
 }
 
 
@@ -295,4 +318,8 @@
         max-width: 20%;
     }
 
+    .design .design-cover{
+        max-width: 1140px;
+        margin: auto;
+    }
 }
