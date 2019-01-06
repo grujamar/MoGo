@@ -79,7 +79,7 @@ p{
 }
 
 .lead-section h3{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .lead-section h2{
@@ -239,3 +239,37 @@ p{
     /*padding-right: 15px;*/
     padding-left: 15px;
 }
+
+/*services section*/
+.services{
+    padding: 50px 0;
+}
+
+.services h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.services .services-item .services-item-left .fa{
+    font-size: 40px;
+    color: #95E1D3;
+}
+
+.services .services-item .services-item-right h4{
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.services .services-item .services-item-right p{
+    color: #999;
+    font-size: 14px;
+}
+
+.services .services-shape{
+    width: 100%;	
+    background-color: #E5E5E5;
+}
+
+
+
