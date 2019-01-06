@@ -109,8 +109,8 @@ p{
     background:#fff;
 }
 
-.line-bg-gray:after{
-    background:#81868E;
+.line-bg-pink:after{
+    background:#F38181;
 }
 
 .btn-outline-white {
@@ -157,3 +157,59 @@ p{
     background:#fff;
 }
 
+/*What-we-do section*/
+.what-we-do{
+    padding: 50px 0;
+}
+
+.what-we-do h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.what-we-do p{
+    width: 80%;
+    margin: 0 auto;
+    color: #999;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.what-we-do article{
+    max-width: 260px;
+    margin: auto;
+}
+
+.what-we-do .hover{
+    position: absolute;
+    bottom: 4%;
+    left: -3%;
+    right: 3%;
+    top: -4%;
+    text-decoration: none;
+    padding: 60px;
+    background: linear-gradient(rgba(232,76,61,0.8), rgba(252,227,138,0.8));
+    color:rgba(255,255,255,0.7);
+    font-size: 1rem;
+    display: none;
+}
+
+.what-we-do article figure:hover .hover{
+    display: block;
+}
+
+.what-we-do .hover .fa{
+    line-height: 30px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.what-we-do .hover h4{	
+    color: #FFF;		
+    font-size: 18px;	
+    font-weight: bold;	
+    line-height: 0;	
+    text-align: center;
+}
