@@ -213,3 +213,29 @@ p{
     line-height: 0;	
     text-align: center;
 }
+
+/*Statistics section*/
+.statistics{
+    padding: 50px 0;
+    background: #95E1D3;
+}
+
+.statistics .statistics-item h2{
+    font-size: 52px;	
+    font-weight: bold;
+}
+
+.statistics .statistics-item h4{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    /*padding-right: 15px;*/
+    padding-left: 15px;
+}
