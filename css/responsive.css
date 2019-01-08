@@ -43,10 +43,15 @@
     .statistics .statistics-item h4{
         font-size: 12px;
     }
-    
+
     .design .design-cover{
         max-width: 516px;
         margin: auto;
+    }
+
+    .slider-list .slider-symbol .fa {
+        padding: 10px;
+        font-size: 30px;
     }
 }
 
@@ -176,10 +181,15 @@
     .design{
         padding: 70px 0 0px;
     }
-    
+
     .design .design-cover{
-        max-width: 708px;
+        max-width: 932px;
         margin: auto;
+    }
+
+    .slider-list .slider-symbol .fa {
+        padding: 15px;
+        font-size: 50px;
     }
 }
 
@@ -289,9 +299,9 @@
     .design{
         padding: 100px 0 0px;
     }
-    
+
     .design .design-cover{
-        max-width: 932px;
+        max-width: 1140px;
         margin: auto;
     }
 }
@@ -316,10 +326,5 @@
         -ms-flex: 0 0 20%;
         flex: 0 0 20%;
         max-width: 20%;
-    }
-
-    .design .design-cover{
-        max-width: 1140px;
-        margin: auto;
     }
 }
