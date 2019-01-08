@@ -49,7 +49,7 @@
         margin: auto;
     }
 
-    .slider-list .slider-symbol .fa {
+    .slider .slider-symbol .fa {
         padding: 10px;
         font-size: 30px;
     }
@@ -187,7 +187,7 @@
         margin: auto;
     }
 
-    .slider-list .slider-symbol .fa {
+    .slider .slider-symbol .fa {
         padding: 15px;
         font-size: 50px;
     }
@@ -303,6 +303,15 @@
     .design .design-cover{
         max-width: 1140px;
         margin: auto;
+    }
+
+    .slider .slider-symbol .fa {
+        padding: 30px;
+        font-size: 65px;
+    }
+
+    .teem{
+        padding: 100px 0;
     }
 }
 

@@ -372,34 +372,26 @@ content: "\e114"; */
     padding: 60px 0;
 }
 
-.slider-list {
-    margin: 0 80px;
-}
-
-.slider-list a{
+.slider a{
     text-decoration: none;
     color: #CCC;
 }
 
-.slider-list .slider-symbol {
-    text-align: center;
-}
-
-.slider-list .slider-symbol .fa {
+.slider .slider-symbol .fa {
     padding: 8px;
     border: 2px solid #95e1d3;
     font-size: 25px;
     color: #95e1d3;
 }
 
-.slider-list .quote {
+.slider .quote {
     color: #999;	
     font-family: Roboto;	
     font-size: 24px;	
     font-style: italic;	
 }
 
-.slider-list .name {
+.slider .name {
     color: #333333;	
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -407,3 +399,72 @@ content: "\e114"; */
 }
 
 
+/*Teem section*/
+.teem{
+    padding: 50px 0;
+}
+
+.teem h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.teem p{
+    color: #999;	
+    font-size: 15px;	
+    line-height: 24px;
+}
+
+.teem .teem-item .fa{
+    font-size: 40px;
+    color: #95E1D3;
+}
+
+.teem .teem-cover{
+    position: absolute;
+    bottom: 3%;
+    left: -3%;
+    right: 3%;
+    top: -3%;
+    text-decoration: none;
+    padding: 60px;
+    background: linear-gradient(rgba(232,76,61,0.8), rgba(252,227,138,0.8));
+    color:rgba(255,255,255,0.7);
+    font-size: 1rem;
+    display: none;
+    padding-top: 50%;
+}
+
+.teem figure:hover .teem-cover{
+    display: block;
+}
+
+.teem .teem-cover .fa{
+    height: 53px;	
+    width: 53px;
+    color: #F38181;	
+    background-color: #FCE38A;
+    text-decoration: none;
+    transition: 0.5s linear;
+    border:1px solid #F38181;
+    padding-top: 5px;
+}
+
+.teem .teem-cover .fa:hover{
+    color: #fff;	
+    background-color: #F38181;
+}
+
+.teem .info h4{
+    color: #333;		
+    font-size: 14px;	
+    line-height: 0;	
+    text-align: center;
+}
+
+.teem .info p{
+    color:#999;
+    font-size: 15px;	
+    font-style: italic;
+    text-align: center;
+}
