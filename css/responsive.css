@@ -306,8 +306,8 @@
     }
 
     .slider .slider-symbol .fa {
-        padding: 30px;
-        font-size: 65px;
+        padding: 40px;
+        font-size: 70px;
     }
 
     .teem{
@@ -320,7 +320,12 @@
 
 
 @media(min-width:1200px){
-
+    
+    /*HEADER*/
+    .navbar-nav li{
+        padding: 0 20px;
+    }
+    
     /*What-we-do section*/
     .what-we-do{
         padding: 100px 0;

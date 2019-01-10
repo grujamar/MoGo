@@ -398,6 +398,18 @@ content: "\e114"; */
     line-height: 0;
 }
 
+.slider .slider-arrow-left,
+.slider .slider-arrow-right{
+    text-align: center;
+}
+
+.slider .slider-arrow-left{
+    margin-bottom: 20px;
+}
+
+.slider .slider-arrow-right{
+    margin-top: 20px;
+}
 
 /*Teem section*/
 .teem{
@@ -467,4 +479,10 @@ content: "\e114"; */
     font-size: 15px;	
     font-style: italic;
     text-align: center;
+}
+
+/*icon-layer*/
+.icon-layer{
+    padding: 25px 0;
+    background-color: #F8F8F8;
 }
