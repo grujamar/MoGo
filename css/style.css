@@ -565,10 +565,18 @@ content: "\e114"; */
     background-color: #F38181;
 }
 
-    /*work*/
-    .work article{
-        max-width: 260px;
-        margin: auto;
-    }
+/*work*/
+.work article{
+    max-width: 260px;
+    margin: auto;
+}
+
+/*slider2*/
+.slider .image-left{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 
