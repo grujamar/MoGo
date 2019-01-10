@@ -53,6 +53,8 @@
         padding: 10px;
         font-size: 30px;
     }
+
+
 }
 
 
@@ -191,6 +193,12 @@
         padding: 15px;
         font-size: 50px;
     }
+    
+    /*work*/
+    .work article{
+        max-width: 768px;
+        margin: auto;
+    }
 }
 
 
@@ -313,6 +321,16 @@
     .teem{
         padding: 100px 0;
     }
+
+    .work{
+        padding: 100px 0;
+    }
+    
+    /*work*/
+    .work article{
+        max-width: 992px;
+        margin: auto;
+    }
 }
 
 
@@ -320,12 +338,12 @@
 
 
 @media(min-width:1200px){
-    
+
     /*HEADER*/
     .navbar-nav li{
         padding: 0 20px;
     }
-    
+
     /*What-we-do section*/
     .what-we-do{
         padding: 100px 0;
