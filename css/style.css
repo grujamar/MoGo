@@ -98,7 +98,7 @@ p{
     width: 50px;
     height: 3px;
     background: gray;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .line-center:after{
@@ -502,7 +502,7 @@ content: "\e114"; */
 
 /*Work section*/
 .work{
-    padding: 70px 0;
+    padding: 70px 0 0px;
 }
 
 .work h2{
@@ -578,6 +578,10 @@ content: "\e114"; */
     margin: auto;
 }
 
+.slider{
+    padding: 60px 0;
+}
+
 /*slider2*/
 .slider .image-left img{
     width: 110px;
@@ -635,6 +639,72 @@ content: "\e114"; */
     height: 100px;
     border-radius: 50%;
     overflow: hidden;   
-} 
+}
+
+/*Blog section*/
+.blog{
+    padding: 50px 0;
+}
+
+.blog h3{
+    color: #333;	
+    font-size: 24px;
+}
+
+.blog h2{
+    color: #333;	
+    font-size: 30px;	
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.blog .blog-item h4{
+    color: #333;	
+    font-size: 14px;
+}
+
+.blog .blog-item p{
+    color: #999;	
+    font-family: Roboto;	
+    font-size: 15px;
+}
+
+.blog .blog-item .blog-statistics .fa{
+    color: #95E1D3;
+}
+
+.blog .blog-item .blog-statistics .blog-statistics-number{
+   color: #999;	
+   font-family: Roboto;	
+   font-size: 15px;	
+   font-style: italic;
+}
+
+.blog .blog-item .blog-statistics .blog-statistics-right{
+    padding-left: 15px;
+}
+
+.blog .blog-item .hover{
+    position: absolute;
+    width:15%;
+    bottom:3%;
+    left: -3%;
+    right: 80%;
+    height: 30%;
+    text-decoration: none;
+    display: block;
+    background: #95E1D3;
+    font-size: 1rem;
+}
+
+.blog .blog-item .hover h4{
+    color:#fff;
+    font-size: 20px;
+}
+
+.blog .blog-item .hover .blog-item-number{
+    font-size: 30px;
+    font-weight: bold;
+}
 
 
