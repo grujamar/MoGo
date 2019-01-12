@@ -86,7 +86,7 @@ p{
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     line-height: 50px;
 }
@@ -699,7 +699,7 @@ content: "\e114"; */
 
 .blog .blog-item .hover h4{
     color:#fff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .blog .blog-item .hover .blog-item-number{
