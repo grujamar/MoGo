@@ -194,11 +194,26 @@
         font-size: 50px;
     }
     
+    .slider .image-left img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
     /*work*/
-    .work article{
+    .work article,
+    .teem article,
+    .what-we-do article{
         max-width: 768px;
         margin: auto;
     }
+
+    /*Clients section*/
+    .clients{
+        padding: 100px 0;
+    }
+
 }
 
 
@@ -325,7 +340,7 @@
     .work{
         padding: 100px 0;
     }
-    
+
     /*work*/
     .work article{
         max-width: 992px;
