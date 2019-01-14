@@ -707,4 +707,32 @@ content: "\e114"; */
     font-weight: bold;
 }
 
+/*Maps*/
+.maps{
+    padding: 50px 0;
+}
+
+.maps .maps-item .fa{
+    color: #F38181;
+    font-size: 24px;
+}
+
+.maps .maps-item h4{
+    color: #F38181;	
+    font-family: Montserrat;	
+    font-size: 24px;	
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.line-map:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #F38181;
+    margin: 20px auto 0;
+}
+
+
 
